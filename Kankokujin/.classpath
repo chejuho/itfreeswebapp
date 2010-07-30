@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="WEB-INF/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3.8.1"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/poi-3.0-alpha1-20050704.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mail.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/prop"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jai_codec.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jai_core.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/commons-el.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/jasper-compiler.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/jasper-compiler-jdt.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/jasper-runtime.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/naming-factory.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/naming-factory-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/naming-resources.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat5/common/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/juniversalchardet-1.0.3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/ant.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>

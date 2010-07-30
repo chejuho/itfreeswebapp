@@ -1,0 +1,161 @@
+top.label.id=ID
+top.label.pwd=パースワード
+top.label.login=ログイン
+top.label.logout=ログアウト
+top.label.createAccount=회원가입
+top.label.aFlashcardList=암기장목록으로
+top.label.myaFlashcardList=내암기장으로
+top.label.nameGuest=님
+
+top.image.log=jsp/images/aFlashcard/common/log.gif
+top.image.createAccount=jsp/images/aFlashcard/common/createAccount.gif
+top.image.aFlashcardList=jsp/images/aFlashcard/common/aFladhcardList.gif
+top.image.myaFlashcardList=jsp/images/aFlashcard/common/myaFlashcardList.gif
+
+top.msg.input_err_id=아이디를 입력하세요.
+top.msg.input_err_pwd=비밀번호를 입력하세요.
+
+aFlashcardList.title=암기장리스트
+
+aFlashcardList.label.category=카테고리
+aFlashcardList.label.title=단어장제목
+aFlashcardList.label.termsCnt=단어수
+aFlashcardList.label.register=등록자
+aFlashcardList.label.flashcardAdd=가져오기
+
+
+aFlashcardList.image.registFlashcard=jsp/images/aFlashcard/kr/resigter_btn.gif
+aFlashcardList.image.flashcardAdd=jsp/images/aFlashcard/kr/add_btn.gif
+aFlashcardList.image.search=jsp/images/aFlashcard/kr/search_btn.gif
+
+aFlashcardList.label.searchresult=검색결과 :
+aFlashcardList.label.searchresultdis1=건중 
+aFlashcardList.label.searchresultdis2=건을표시하고 있습니다.
+aFlashcardList.label.searchresultEmpty=해당 검색 리스트가 없습니다.
+aFlashcardList.search.option1=전체검색
+aFlashcardList.search.option2=암기장
+aFlashcardList.search.option3=등록자
+
+aFlashcardList.msg.login_err=비밀번호가 일치하지 않습니다.
+aFlashcardList.msg.no_login_err=로그인후에 사용가능합니다.
+aFlashcardList.msg.groupAddSuccess=추가되었습니다.
+aFlashcardList.msg.duplicateError=이미추가된 암기장입니다.
+aFlashcardList.msg.deleteSuccess=암기장이 삭제되었습니다.
+aFlashcardList.msg.deleteFailForPassError=비밀번호가 일치하지 않습니다.
+
+myaFlashcardList.title=내암기장리스트
+
+myaFlashcardList.label.categoryManage=카테고리관리
+myaFlashcardList.label.category=카테고리
+myaFlashcardList.label.title=단어장제목
+myaFlashcardList.label.termsCnt=단어수
+myaFlashcardList.label.share=공유
+myaFlashcardList.label.delete=삭제
+myaFlashcardList.label.start=학습시작
+myaFlashcardList.label.register=등록자
+myaFlashcardList.label.flashcardAdd=가져오기
+
+myaFlashcardList.label.searchresult=검색결과 :
+myaFlashcardList.label.searchresultdis1=건중 
+myaFlashcardList.label.searchresultdis2=건을표시하고 있습니다.
+myaFlashcardList.label.searchresultEmpty=해당 검색 리스트가 없습니다.
+
+myaFlashcardList.image.registCategory=jsp/images/aFlashcard/kr/resigter_btn.gif
+myaFlashcardList.image.deleteCategory=jsp/images/aFlashcard/kr/delete_btn.gif
+myaFlashcardList.image.editCategory=jsp/images/aFlashcard/kr/edit_btn.gif
+myaFlashcardList.image.shareFlashcard=jsp/images/aFlashcard/kr/share_btn.gif
+myaFlashcardList.image.deleteFlashcard=jsp/images/aFlashcard/kr/delete_btn.gif
+myaFlashcardList.image.startFlashcard=jsp/images/aFlashcard/kr/start.gif
+
+myaFlashcardList.msg.delete_err=삭제불가능한 카테로리입니다.
+myaFlashcardList.msg.froupAddSuccess=추가되었습니다.
+myaFlashcardList.msg.duplicateError=이미공개된 암기장입니다.
+myaFlashcardList.msg.groupDeleteSuccess=암기장이 삭제되었습니다.
+myaFlashcardList.msg.category=카테고리
+myaFlashcardList.msg.confirmDelete=정말 삭제하십니까?
+myaFlashcardList.msg.confirmCancel=취소되었습니다.
+
+aFlashcardDetail.title=암기장상세
+
+aFlashcardDetail.label.question=문제
+aFlashcardDetail.label.answer=답
+
+aFlashcardDetail.label.searchresult=검색결과 :
+aFlashcardDetail.label.searchresultdis1=건중 
+aFlashcardDetail.label.searchresultdis2=건을표시하고 있습니다.
+aFlashcardDetail.label.searchresultEmpty=해당 검색 리스트가 없습니다.
+
+aFlashcardDetail.image.list=jsp/images/aFlashcard/kr/list_btn.gif
+aFlashcardDetail.image.download=jsp/images/aFlashcard/kr/download_btn.gif
+aFlashcardDetail.image.delete=jsp/images/aFlashcard/kr/delete_btn_detail.gif
+
+aFlashcardDetail.msg.login_err=비밀번호가 일치하지 않습니다.
+aFlashcardDetail.msg.no_login_err=로그인후에 사용가능합니다.
+aFlashcardDetail.msg.confirmDelete=정말 삭제하십니까?
+aFlashcardDetail.msg.confirmCancel=취소되었습니다.
+
+categoryNameInputOpen.title=카테고리
+
+categoryNameInputOpen.label.nameInput=카테고리의 이름을 입력해주세요.
+categoryNameInputOpen.label.name=카테고리명:
+
+categoryNameInputOpen.msg.login_err=로그인후에 사용가능합니다.
+categoryNameInputOpen.msg.no_inputCategoryName_err=카테고리명을 입력해 주세요.
+categoryNameInputOpen.msg.no_mainwindow_err=메인윈도우가 없습니다.
+
+categoryNameInputOpen.image.ok=jsp/images/aFlashcard/kr/ok_btn.gif
+
+memberRegist.title=회원가입
+
+memberRegist.label.requiredItem=필수항목
+memberRegist.label.display=표시
+memberRegist.label.id=아이디
+memberRegist.label.pwd=비밀번호
+memberRegist.label.rePwd=비밀번호확인
+memberRegist.label.nickname=닉네임
+memberRegist.label.restrict1=(4~12영문, 숫자 가능)
+memberRegist.label.restrict2=(2~20자한글, 영문, 숫자 가능)
+
+memberRegist.image.titleBg1=jsp/images/aFlashcard/kr/memregist_tit.gif
+memberRegist.image.titleBg2=jsp/images/aFlashcard/kr/memregist_s_tit2.gif
+memberRegist.image.regist=jsp/images/aFlashcard/kr/memregist_b.gif
+memberRegist.image.idcheck=jsp/images/aFlashcard/kr/id_check_btn.gif
+
+memberRegist.msg.duplication_err=이미등록된ID입니다.
+memberRegist.msg.available=사용가능한 ID입니다.
+memberRegist.msg.noInput_id_err=아이디를 입력하세요.
+memberRegist.msg.id_restrict1_err=아이디를 4자이상 12자이하로 해주세요.
+memberRegist.msg.id_restrict2_err=ID는 영문,숫자만 가능합니다.
+memberRegist.msg.noPwd_err=비밀번호를 입력하세요.
+memberRegist.msg.pwd_input1_err=입력하신 비밀번호가 서로 다릅니다.\n다시 입력을 해주십시요.
+memberRegist.msg.pwd_input2_err=비밀번호에 영문,숫자 이외의 문자가 있으면 안됩니다!
+memberRegist.msg.nickname_input1_err=닉네임을 입력하세요.
+memberRegist.msg.nickname_input2_err=닉네임이 형식에 맞지 않습니다.
+
+memberRegist.info.categoryName=내암기장
+
+aFlashcardDelete.title=암기장삭제
+
+aFlashcardDelete.msg.pwd_err=패스워드를 입력해 주세요.
+aFlashcardDelete.msg.no_mainwindow_err=메인윈도우가 없습니다.
+
+aFlashcardDelete.label.head=암기장을 삭제하시려면 비밀번호를 입력해주세요.
+aFlashcardDelete.label.pwd=비밀번호:
+
+aFlashcardDelete.image.ok=jsp/images/aFlashcard/kr/ok_btn.gif
+
+aFlashcardRegist.title=암기장등록
+
+aFlashcardRegist.msg.uploadFormat_err=업로드가능한 형식이 아닙니다.
+aFlashcardRegist.msg.no_input1_err=암기장제목을 입력해 주세요.
+aFlashcardRegist.msg.no_input2_err=등록자를 입력해 주세요.
+aFlashcardRegist.msg.no_input3_err=패스워드를 입력해 주세요.
+
+aFlashcardRegist.label.titleMain=암기장등록
+aFlashcardRegist.label.title=암기장 제목
+aFlashcardRegist.label.register=등록자
+aFlashcardRegist.label.fileupload=파일업로드
+aFlashcardRegist.label.pwd=패스워드
+
+aFlashcardRegist.image.regist_ok=jsp/images/aFlashcard/kr/memregist_tit.gif
+aFlashcardRegist.image.cancel=jsp/images/aFlashcard/kr/memregist_tit.gif

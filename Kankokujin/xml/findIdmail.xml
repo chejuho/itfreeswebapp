@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>comment</comment>
+<entry key="subject">【KANKOKUJIN.COM】 아이디 확인 메일 입니다.</entry>
+<entry key="contents">&lt;html&gt;
+&lt;P&gt;==================================================&lt;BR&gt;
+&lt;b&gt;[KANKOKUJIN.COM]&lt;/b&gt; 아이디 확인 메일&lt;BR&gt;
+==================================================&lt;/P&gt;
+&lt;P&gt;&lt;b&gt;USERNAME_X님&lt;/b&gt; &lt;BR&gt;
+안녕하세요 &lt;b&gt;KANKOKUJIN.COM&lt;/b&gt;입니다.&lt;BR&gt;
+&lt;b&gt;KANKOKUJIN.COM&lt;/b&gt;을 이용해 주셔서 감사합니다.&lt;/P&gt;
+&lt;P&gt;조회하신 회원님의 ID는 아래와 같습니다.&lt;BR&gt;
+==================================================&lt;BR&gt;
+ID : USERID_X&lt;BR&gt;
+==================================================&lt;BR&gt;
+아래의 주소를 클릭하시면 사이트로 바로 가실 수 있습니다.&lt;BR&gt;
+==================================================&lt;BR&gt;
+&lt;b&gt;&lt;A href="http://SERVER_DOMAIN/Kankokujin/Index"&gt;[ 메인 화면 바로 가기]&lt;/A&gt;&lt;/b&gt; &lt;/P&gt;
+==================================================&lt;BR&gt;
+&lt;P&gt;&lt;b&gt;KANKOKUJIN.COM&lt;/b&gt; - 본 메일은 발신 전용 메일입니다. &lt;BR&gt;
+자세한 문의 사항은 관리자에게 문의 바랍니다.&lt;BR&gt;
+관리자 메일 &lt;A href="mailto:info@itfrees.com"&gt;info@itfrees.com&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;(株) IT FREES&lt;BR&gt;
+&lt;A href="http://www.itfrees.com"&gt;http://www.itfrees.com&lt;/A&gt;&lt;BR&gt;&lt;/P&gt;
+&lt;BR&gt;Copyright (c) IT FREES ALL RIGHT RESERVED&lt;/P&gt;
+&lt;/html&gt;</entry>
+</properties>

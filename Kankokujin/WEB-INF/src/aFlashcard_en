@@ -1,0 +1,161 @@
+top.label.id=Id
+top.label.pwd=Password
+top.label.login=Login
+top.label.logout=Logout
+top.label.createAccount=New Account
+top.label.aFlashcardList=To FlashcardList 
+top.label.myaFlashcardList=To MyFlashcardList
+top.label.nameGuest=
+
+top.image.log=jsp/images/aFlashcard/common/log.gif
+top.image.createAccount=jsp/images/aFlashcard/common/createAccount.gif
+top.image.aFlashcardList=jsp/images/aFlashcard/common/aFladhcardList.gif
+top.image.myaFlashcardList=jsp/images/aFlashcard/common/myaFlashcardList.gif
+
+top.msg.input_err_id=Please enter the ID
+top.msg.input_err_pwd=Please enter the Password
+
+aFlashcardList.title=FlashcardList
+
+aFlashcardList.label.category=Category
+aFlashcardList.label.title=Title
+aFlashcardList.label.termsCnt=Terms
+aFlashcardList.label.register=Register
+aFlashcardList.label.flashcardAdd=Import
+
+
+aFlashcardList.image.registFlashcard=jsp/images/aFlashcard/kr/resigter_btn.gif
+aFlashcardList.image.flashcardAdd=jsp/images/aFlashcard/kr/add_btn.gif
+aFlashcardList.image.search=jsp/images/aFlashcard/kr/search_btn.gif
+
+aFlashcardList.label.searchresult=Search Results :
+aFlashcardList.label.searchresultdis1=of 
+aFlashcardList.label.searchresultdis2=
+aFlashcardList.label.searchresultEmpty=Search result are empty.
+aFlashcardList.search.option1=Full Search
+aFlashcardList.search.option2=DeckTitle
+aFlashcardList.search.option3=Register
+
+aFlashcardList.msg.login_err=Password do not match
+aFlashcardList.msg.no_login_err=After login enabled.
+aFlashcardList.msg.groupAddSuccess=Added.
+aFlashcardList.msg.duplicateError=Deck is already exist.
+aFlashcardList.msg.deleteSuccess=Deck has been deleted.
+aFlashcardList.msg.deleteFailForPassError=Password does not match.
+
+myaFlashcardList.title=MyDecks
+
+myaFlashcardList.label.categoryManage=CategoryManage
+myaFlashcardList.label.category=Category
+myaFlashcardList.label.title=Title
+myaFlashcardList.label.termsCnt=Terms
+myaFlashcardList.label.share=Share
+myaFlashcardList.label.delete=Delete
+myaFlashcardList.label.start=Start
+myaFlashcardList.label.register=Register
+myaFlashcardList.label.flashcardAdd=Import
+
+myaFlashcardList.label.searchresult=Search Results :
+myaFlashcardList.label.searchresultdis1=of
+myaFlashcardList.label.searchresultdis2=
+myaFlashcardList.label.searchresultEmpty=Search result are empty.
+
+myaFlashcardList.image.registCategory=jsp/images/aFlashcard/kr/resigter_btn.gif
+myaFlashcardList.image.deleteCategory=jsp/images/aFlashcard/kr/delete_btn.gif
+myaFlashcardList.image.editCategory=jsp/images/aFlashcard/kr/edit_btn.gif
+myaFlashcardList.image.shareFlashcard=jsp/images/aFlashcard/kr/share_btn.gif
+myaFlashcardList.image.deleteFlashcard=jsp/images/aFlashcard/kr/delete_btn.gif
+myaFlashcardList.image.startFlashcard=jsp/images/aFlashcard/kr/start.gif
+
+myaFlashcardList.msg.delete_err=Category is impossible to remove.
+myaFlashcardList.msg.froupAddSuccess=Added.
+myaFlashcardList.msg.duplicateError=Deck is already exist in public.
+myaFlashcardList.msg.groupDeleteSuccess=Deck has been deleted.
+myaFlashcardList.msg.category=Category
+myaFlashcardList.msg.confirmDelete=Really delete?
+myaFlashcardList.msg.confirmCancel=Canceled.
+
+aFlashcardDetail.title=Deck Detail
+
+aFlashcardDetail.label.question=Question
+aFlashcardDetail.label.answer=Answer
+
+aFlashcardDetail.label.searchresult=Search Results :
+aFlashcardDetail.label.searchresultdis1=of
+aFlashcardDetail.label.searchresultdis2=
+aFlashcardDetail.label.searchresultEmpty=Search result are empty.
+
+aFlashcardDetail.image.list=jsp/images/aFlashcard/kr/list_btn.gif
+aFlashcardDetail.image.download=jsp/images/aFlashcard/kr/download_btn.gif
+aFlashcardDetail.image.delete=jsp/images/aFlashcard/kr/delete_btn_detail.gif
+
+aFlashcardDetail.msg.login_err=Password do not match.
+aFlashcardDetail.msg.no_login_err=Login please.
+aFlashcardDetail.msg.confirmDelete=Really delete?
+aFlashcardDetail.msg.confirmCancel=Canceled.
+
+categoryNameInputOpen.title=Category
+
+categoryNameInputOpen.label.nameInput=Please enter the name of category.
+categoryNameInputOpen.label.name=Category name:
+
+categoryNameInputOpen.msg.login_err=Login please.
+categoryNameInputOpen.msg.no_inputCategoryName_err=Please enter the name of category.
+categoryNameInputOpen.msg.no_mainwindow_err=There is no Main Window.
+
+categoryNameInputOpen.image.ok=jsp/images/aFlashcard/kr/ok_btn.gif
+
+memberRegist.title=Sign Up
+
+memberRegist.label.requiredItem=Required
+memberRegist.label.display=Show
+memberRegist.label.id=Id
+memberRegist.label.pwd=Password
+memberRegist.label.rePwd=Confirm Password
+memberRegist.label.nickname=Nickname
+memberRegist.label.restrict1=(4~12 English, Number)
+memberRegist.label.restrict2=(2~20 English, Number)
+
+memberRegist.image.titleBg1=jsp/images/aFlashcard/kr/memregist_tit.gif
+memberRegist.image.titleBg2=jsp/images/aFlashcard/kr/memregist_s_tit2.gif
+memberRegist.image.regist=jsp/images/aFlashcard/kr/memregist_b.gif
+memberRegist.image.idcheck=jsp/images/aFlashcard/kr/id_check_btn.gif
+
+memberRegist.msg.duplication_err=Id is already registered.
+memberRegist.msg.available=Id is available.
+memberRegist.msg.noInput_id_err=Please enter the Id.
+memberRegist.msg.id_restrict1_err=12 characters or less than 4 characters long please.
+memberRegist.msg.id_restrict2_err=English, numbers are available.
+memberRegist.msg.noPwd_err=Please enter the password.
+memberRegist.msg.pwd_input1_err=Re-enter password is different.
+memberRegist.msg.pwd_input2_err=Only English or numbers in Password!
+memberRegist.msg.nickname_input1_err=Please enter the nickname.
+memberRegist.msg.nickname_input2_err=Nickname does not fit this format.
+
+memberRegist.info.categoryName=My Decks
+
+aFlashcardDelete.title=Delete Deck
+
+aFlashcardDelete.msg.pwd_err=Please enter the password.
+aFlashcardDelete.msg.no_mainwindow_err=There is no Main Window.
+
+aFlashcardDelete.label.head=If you delete that enter the password.
+aFlashcardDelete.label.pwd=Password:
+
+aFlashcardDelete.image.ok=jsp/images/aFlashcard/kr/ok_btn.gif
+
+aFlashcardRegist.title=Deck Register.
+
+aFlashcardRegist.msg.uploadFormat_err=Uploading is not available formats.
+aFlashcardRegist.msg.no_input1_err=Please enter a title.
+aFlashcardRegist.msg.no_input2_err=Please enter the registrant.
+aFlashcardRegist.msg.no_input3_err=Please enter the password.
+
+aFlashcardRegist.label.titleMain=Deck Register
+aFlashcardRegist.label.title=Deck title
+aFlashcardRegist.label.register=Registrant
+aFlashcardRegist.label.fileupload=File Upload
+aFlashcardRegist.label.pwd=Password
+
+aFlashcardRegist.image.regist_ok=jsp/images/aFlashcard/kr/memregist_tit.gif
+aFlashcardRegist.image.cancel=jsp/images/aFlashcard/kr/memregist_tit.gif

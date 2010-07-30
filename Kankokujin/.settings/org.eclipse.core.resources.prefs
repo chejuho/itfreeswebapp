@@ -1,0 +1,20 @@
+#Fri Jul 09 13:57:58 JST 2010
+eclipse.preferences.version=1
+encoding//WEB-INF/src/aFlashcard_ko=UTF-8
+encoding//WEB-INF/src/aFlashcard_ko.properties=UTF-8
+encoding//WEB-INF/src/board/MainClass.java=UTF-8
+encoding//WEB-INF/src/common/batch/url/DataTransferHandler.java=UTF-8
+encoding//WEB-INF/src/common/batch/url/RealEstateInfoAcquisition.java=UTF-8
+encoding//WEB-INF/src/common/batch/url/URLReader.java=UTF-8
+encoding//WEB-INF/src/common/bean/Bean.java=UTF-8
+encoding//WEB-INF/src/housesell/action/HouseSellListAction.java=UTF-8
+encoding//WEB-INF/src/housesell/handler/HouseSellListHandler.java=UTF-8
+encoding//WEB-INF/tlds/utilFunction.tld=UTF-8
+encoding//jsp/buysell/image.jsp=UTF-8
+encoding//jsp/findjob/findjobRegist.jsp=UTF-8
+encoding//jsp/hudousan=UTF-8
+encoding//jsp/include/js/store.js=UTF-8
+encoding//jsp/include/js/top.js=UTF-8
+encoding//jsp/member/join.jsp=EUC-KR
+encoding//jsp/member/join_finish.jsp=EUC-KR
+encoding/jsp=UTF-8

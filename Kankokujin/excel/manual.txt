@@ -1,0 +1,19 @@
+
+1. cvsからKankokujinプロジェクトをチェックアウトする
+
+２．Mysqlの設定を行う(sqlフォルダのdatabase.txt参照)
+	データベース名はkankokujincom
+	id:root
+	pwd:itfrees747
+
+３．sqlフォルダのcreate分を実行してテーブルを作成する（database.txtは除いて）
+４．srcフォルダのcommon.batchのなかで下記を実行する
+	ConstantTableInsert.java
+	InsertAreaCode.java
+	InsertTrainCode.java
+	
+http://localhost/Kankokujinに接続して通訳翻訳で動作確認を行ってください。	
+
+問い合わせは
+jeong@emnet.ne.jp(携帯メールがすぐ確認できます。)
+jeong@itfrees.com

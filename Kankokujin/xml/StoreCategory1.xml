@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>comment</comment>
+<entry key="00">선택해주세요</entry>
+<entry key="01">교통</entry>
+<entry key="02">금융</entry>
+<entry key="03">레져/스포츠</entry>
+<entry key="04">병원/의료</entry>
+<entry key="05">생활/편의</entry>
+<entry key="06">여행/숙박</entry>
+<entry key="07">음식</entry>
+<entry key="09">인터넷/컴퓨터</entry>
+<entry key="10">취미/여가</entry>
+<entry key="11">학교/교육</entry>
+<entry key="12">건강/미용</entry>
+<entry key="13">쇼핑/판매</entry>
+<entry key="14">법률/회계</entry>
+<entry key="15">종교</entry>
+<entry key="15">한국요리</entry>
+</properties>

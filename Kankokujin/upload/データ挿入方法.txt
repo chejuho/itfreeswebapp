@@ -1,0 +1,37 @@
+
+/www/WEB-INF/classes/common/batch/insertdata/
+
+以下のフォルダに最新eigyou_email_list.xls（営業先メール）、eng_email_list.xls（技術者メール）を配置する
+/www/excel/restore/
+
+
+データ挿入
+１）putty.exe起動
+２）cd www/WEB-INF/classes
+３）export CLASSPATH=$CLASSPATH:/home/hosting_users/itfreescom/www/WEB-INF/lib/poi-3.0-alpha1-20050704.jar:/home/hosting_users/itfreescom/www/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar
+
+４．それぞれデータ挿入
+java common.batch.insertdata.InsertCompanyData
+java common.batch.insertdata.InsertEngineerData
+
+
+挿入したデータを確認する
+１．ログイン
+mysql -u itfreescom -p itfreescom
+itfrees747
+
+
+営業リストデータ件数確認 
+select count(*) from eng_email_list;
+select count(*) from eigyou_email_list;
+
+特定データの内容確認
+select * from eng_email_list where id = 確認するID入力;
+select * from eigyou_email_list where mail_id = 確認するID入力;
+
+データ全て削除
+delete from eng_email_list;
+delete from eigyou_email_list;
+
+
+
