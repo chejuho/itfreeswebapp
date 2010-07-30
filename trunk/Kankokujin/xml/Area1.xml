@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>comment</comment>
+<entry key="00">지역단위</entry>
+<entry key="01">東京都23区</entry>
+<entry key="02">東京都市部</entry>
+<entry key="03">神奈川県</entry>
+<entry key="04">千葉県</entry>
+<entry key="05">埼玉県</entry>
+</properties>

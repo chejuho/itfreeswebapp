@@ -1,0 +1,1127 @@
+<%@ page language="java" contentType="text/html; charset=Shift_JIS"
+	pageEncoding="Shift_JIS"%>
+<%
+request.setCharacterEncoding("Shift_JIS");
+%>
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-type" content="text/html; charset=Shift_JIS">
+<link href="file:///C|/workspace/Kankokujin/jsp/include/css/kankokujin.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+<!--
+
+
+
+
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="1024" border="0" align="center">
+  <tr>
+    <td>
+      <table border="0" cellpadding="0" cellspacing="0" width="950" height="120" align="center">
+        <tr>
+			<td><table width="1000" border="0" cellspacing="0" cellpadding="0" bgcolor="e3dacb">
+              <tr>
+                <td width="423"><img src="file:///C|/workspace/Kankokujin/jsp/images/main/img_topline_left.gif" width="4" height="4"></td>
+                <td width="104"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/space.gif" width="1" height="1"></td>
+                <td width="423"><div align="right"><img src="file:///C|/workspace/Kankokujin/jsp/images/main/img_topline_right.gif" width="4" height="4"></div></td>
+              </tr>
+            </table></td>
+	  </tr>
+	  <tr>
+	    <td><img src="file:///C|/workspace/Kankokujin/jsp/images/common/space.gif" alt="" width="1" height="5"></td>
+	    </tr>
+		<tr valign="top">
+			
+        <td align="right"> 
+          <table width="300" border="0">
+            <tr> 
+              <td> 
+                <div align="center">HOME</div>
+              </td>
+              <td> 
+                <div align="center">飲食カテゴリ</div>
+              </td>
+              <td> 
+                <div align="center">お店出店</div>
+              </td>
+              <td> 
+                <div align="center">ログアウト</div>
+              </td>
+              <td> 
+                <div align="center"></div>
+              </td>
+            </tr>
+          </table>
+      
+			
+        </td>
+		</tr>
+		<tr valign="top">
+		  <td><a href=""><img src="file:///C|/workspace/Kankokujin/jsp/images/common/logo.gif" width="207" height="30"></a></td>
+		  </tr>
+		<tr valign="top">
+		  <td>
+   
+          <table width="1024" border="0" cellpadding="0" cellspacing="0" background="file:///C|/workspace/Kankokujin/jsp/images/common/top_bg.gif">
+            <tr>
+              <td width="207"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_banner.gif" width="207" height="54"></td>
+              <td width="733">
+                <table width="602" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr> 
+                    <td width="71"><a href="file:///C|/workspace/Kankokujin/jsp/inform/BuySellList" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_buysell_over.gif',1)"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_buysell.gif" name="Image15" width="71" height="23" border="0"></a></td>
+                    <td width="21"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_slide.gif" width="21" height="23"></td>
+                    <td width="71"><a href="file:///C|/workspace/Kankokujin/jsp/inform/StoreList" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_store_over.gif',1)"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_store.gif" name="Image16" width="71" height="23" border="0"></a></td>
+                    <td width="21"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+                    <td width="71"><a href="file:///C|/workspace/Kankokujin/jsp/inform/RoomSellList" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_roomsell_over.gif',1)"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_roomsell.gif" name="Image17" width="71" height="23" border="0"></a></td>
+                    <td width="21"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+                    <td width="71"><a href="file:///C|/workspace/Kankokujin/jsp/inform/HouseSellList" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_housesell_over.gif',1)"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_housesell.gif" name="Image21" width="71" height="23" border="0"></a></td>
+                    <td width="21"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+                    <td width="80"><a href="file:///C|/workspace/Kankokujin/jsp/inform/InterpretList" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_interpret_over.gif',1)"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_interpret.gif" name="Image18" width="80" height="23" border="0"></a></td>
+                    <td width="21"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+                    <td width="80"><a href="file:///C|/workspace/Kankokujin/jsp/inform/EngMgnList" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_engmgn_over.gif',1)"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_menu_engmgn.gif" name="Image19" width="80" height="23" border="0"></a></td>
+                  </tr>
+                </table>
+              </td>
+              <td width="10" align="right"><img src="file:///C|/workspace/Kankokujin/jsp/images/common/top_bg_image.gif" width="5" height="54"></td>
+            </tr>
+          </table>
+          
+		  </td>
+		</tr>
+
+		</table>	
+    </td>
+  </tr>
+
+  <tr>
+  	<td>
+	<TABLE align=center border=0>
+<TBODY>
+<TR>
+	<TD colSpan=5>
+		    <h1 align="center">　</h1>
+            <h1 align="center"><font face="HGP教科書体">メニュー画面</font></h1>
+            <h2 align="center"><font face="ＭＳ Ｐゴシック"><a href="restaurant_detail.html">詳細画面</a>　<a href="restaurant_event.html">イベント</a>　<a href="restaurant_coupon.html">クーポン</a></font></h2>
+            <h2 align="center">　</h2>
+			
+	</TD>
+</TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■特選和牛■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■お子様セット■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>特上タン塩</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>3150</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>お子様うどん</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>504</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>特上カルビ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>2940</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>お子様ランチ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>リブロース</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>2940</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■スープ■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>特上ハラミ角塩</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1890</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>玉子スープ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>イチボ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>2520</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>野菜スープ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>ミスジ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>2520</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ffff99>　</TD>
+<TD bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD bgColor=#ffff99>壷漬けカルビ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>2100</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ffff99>ワカメスープ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■セット焼肉■</B></FONT></DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>トック</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>三種カルビ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1680</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>コムタンスープ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>吟味盛合せ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>3675</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■スープ辛味■</B></FONT></DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>ハーフ盛合せ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1155</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>ユッケジャンスープ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>609</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>得特盛合せ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>4200</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>カルビスープ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>609</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>塩味セット</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1575</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>タルケジャンスープ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>714</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>味噌セット</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1575</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■冷たい麺■</B></FONT></DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■焼肉■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>冷麺</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>骨付カルビ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1470</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ビビン麺</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>上カルビ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1680</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>平打ち冷麺</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>上ロース</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1575</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■温かい麺■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>上ハラミ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1470</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>盛岡麺玉</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>カルビ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>924</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>うどん玉</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ロース</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>735</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>カルビうどん</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>タン塩</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>924</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>玉子温麺</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>630</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ハラミ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>735</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>カルビ温麺</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>豚カルビ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>チゲうどん</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>714</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>地鶏カルビ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■サワー■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>上ミノ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>788</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>レモンサワー</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>上ホルモン</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>788</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ウーロンハイ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>レバ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>グレープフルーツサワー</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ギャラ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99 height=14>青リンゴサワー</TD>
+<TD width="12%" bgColor=#99ccff height=14>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>上タン塩</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1890</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>カルピスサワー</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>特上タンスジ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1260</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>各種ダブル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>735</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>地鶏焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ffff99>生茶ハイ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>上ナンコツ塩焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■カクテル■</B></FONT></DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>テール焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>714</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ffff99>カシスオレンジ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>つぼ漬けヒレ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1890</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ffff99>カシスグレープ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>つぼ漬けカルビ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>2310</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ffff99>アジアンカシス</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>つぼ漬けハラミ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>2310</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ffff99>カシスソーダ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>まるちゃん</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■日本酒＆焼酎■</B></FONT></DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>ガツ塩焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>チャミスル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1260</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>トントロ塩焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>714</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>日本酒</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>683</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>砂肝塩焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>冷酒</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>683</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>とりナンコツ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>焼酎（水割・お湯割）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>ソーセージ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>焼酎ダブル（水割・お湯割）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>735</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■海鮮焼■</B></FONT></DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>冷酒（松竹梅）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>840</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>海老焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>924</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>冷酒（菊水）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>945</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>磯盛</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1344</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ffff99>マッコリ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1890</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>イカ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■果実酒■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ホタテ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>梅酒（ソーダ・水割・ロック）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>から付ホタテ焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1260</DIV></TD>
+
+
+<TD width="3%" height=14>　</TD>
+<TD width="34%" bgColor=#ffff99>杏酒（ソーダ・水割・ロック）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■漬物■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>巨峰酒（ソーダ・水割・ロック）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>キムチ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>各種ダブル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>840</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>カクテキ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■ウイスキー＆ワイン■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>オイキムチ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>水割り</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>かきキムチ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>735</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ロック</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>630</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>キムチ盛</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>735</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>水割り（W）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>735</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■ナムル■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ロック（W）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>945</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ゼンマイナムル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>グラスワイン 赤</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>豆もやしナムル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>グラスワイン 白</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>もやしナムル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■ボトル（キープ3ヶ月）■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ほうれん草ナムル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>リザーブボトル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>6300</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>大根ナムル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>真露・焼酎各種</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1890</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ナムル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■ボトルセット■</B></FONT></DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■サラダ■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>カット生レモン</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ファミリーサラダ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>735</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>紀州梅干（1ヶ）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>105</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ワカメサラダ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>紀州梅干（5ヶ）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>グリーンサラダ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ハイサワーレモン（1リットル）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>840</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>シーフードサラダ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>735</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ハイサワー青リンゴ（1リットル）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>840</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>チョレギ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>630</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ウーロン茶（1リットル）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>840</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>サンチュ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>生茶（１リットル）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>840</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>キャベツ千切</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■ビール■</B></FONT></DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■刺身■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ビール</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ユッケ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>924</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>　</TD>
+<TD bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>レバ刺　　　　　＊夏季は取り扱っておりません</TD>
+<TD width="12%" bgColor=#99ccff>　　　　　　　　924</TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>　</TD>
+<TD bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>センマイ刺　　　＊夏季は取り扱っておりません</TD>
+<TD width="12%" bgColor=#99ccff>　　　　　　　　714</TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>生ビール（グラス）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>牛刺</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>924</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>生ビール（中）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>イカ刺</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>788</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>生ビール（大）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>735</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■一品料理■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ノンアルコールビール</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>チャンジャ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■ソフトドリンク■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>すじ煮込</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>840</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>コーヒーフロート</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>368</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>韓国風焼のり</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>189</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>クリームソーダ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>368</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>トンソク</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>368</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>　</TD>
+<TD bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD bgColor=#ffff99>トック焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>210</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>コーラフロート</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>368</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>サンゲタン</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1575</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>アイスコーヒー・ホットコーヒー</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>チャプチェ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>945</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>カルピス</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>ケジャン（冬季限定）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1575</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>オレンジジュース</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■チヂミ■</B></FONT></DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>ウーロン茶</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>鉄板海鮮チヂミ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>840</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>スプライト</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■韓国鍋■</B></FONT></DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>グレープフルーツ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>海鮮チゲ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>924</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>メロンソーダ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>納豆チゲ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>　</TD>
+<TD bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>豆腐チゲ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>コーラ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>カニチゲ（冬季限定）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1050</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■デザート■</B></FONT></DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>かきチゲ（冬季限定）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1050</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>バニラアイス</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■ビビンバ■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>ストロベリーアイス</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ユッケビビンバ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1050</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>抹茶アイス</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ビビンバ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>683</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>白ごまアイス</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>石焼ビビンバ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>893</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>オレンジシャーベット</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ユッケ石焼ビビンバ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>1260</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>ゆずシャーベット</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>キムチチャーハン</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>630</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>プリン</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>315</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>明太子ビビンバ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>945</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>チーズケーキ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>315</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>明太子石焼ビビンバ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1155</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>杏仁フルーツ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD></TR>
+<TR>
+<TD bgColor=#ffff99>きのこ石焼ピビンバ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>1155</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>チョコレートパフェ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>683</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■スープご飯■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>コーヒーゼリー</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>クッパ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ffff99>ブラマンジェ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>鮭クッパ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>714</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>自家製杏仁豆腐</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>カルビクッパ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>714</DIV></TD>
+<TD>　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■焼酎■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>タルケジャンクッパ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>819</DIV></TD>
+<TD>　</TD>
+<TD width="34%" bgColor=#ffff99>角玉（水割り・お湯割り・ロック）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>630</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ユッケジャンクッパ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>714</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>角玉ボトル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>3150</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>コムタンクッパ</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>924</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>さつま司（水割り・お湯割り・ロック）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>630</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ライス</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>210</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>さつま司ボトル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>3150</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>半ライス</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>158</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>紅一刻（水割り・お湯割り・ロック）</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>651</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>大盛り</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>315</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>紅一刻ボトル</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>3360</DIV></TD></TR>
+<TR>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■野菜焼■</B></FONT></DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ccffcc colSpan=2>
+<DIV align=center><FONT color=#006600><B>■ワイン■</B></FONT></DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ニンニクホイル焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>473</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>ムートン（赤）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>3990</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ニンニク焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>473</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>ムートン（白）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>3990</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>野菜焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>カリテラカベルネ（赤）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>2940</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>シイタケ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>カリテラカベルネ（白）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>2940</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>トウモロコシ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>デリカート（赤）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>2100</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ネギ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>デリカート（白）</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>2100</DIV></TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>玉ネギ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>　</TD>
+<TD width="12%" bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>ピーマン焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD bgColor=#ffff99>　</TD>
+<TD bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>キャベツ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>　</TD>
+<TD width="12%" bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>サツマ芋焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>　</TD>
+<TD width="12%" bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD width="34%" bgColor=#ffff99>カボチャ焼</TD>
+<TD width="12%" bgColor=#99ccff>
+<DIV align=right>420</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>　</TD>
+<TD width="12%" bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD bgColor=#ffff99>ブナシメジ焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>　</TD>
+<TD width="12%" bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD bgColor=#ffff99>エリンギ焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>　</TD>
+<TD width="12%" bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD bgColor=#ffff99>本しめじ焼</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>525</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>　</TD>
+<TD width="12%" bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD bgColor=#ffff99>きのこ盛合せ</TD>
+<TD bgColor=#99ccff>
+<DIV align=right>735</DIV></TD>
+<TD width="3%">　</TD>
+<TD width="34%" bgColor=#ffff99>　</TD>
+<TD width="12%" bgColor=#99ccff>　</TD></TR>
+<TR>
+<TD bgColor=#ff66ff colSpan=5>
+<DIV align=center><STRONG>＊お値段は全て消費税を含まれた金額（総額表示）でございます。</STRONG></DIV></TD></TR></TBODY></TABLE>
+  	</td>
+  </tr>
+  <tr>
+    <td>
+      <div align="center">
+		<table border="0" cellpadding="0" cellspacing="0" width="950">
+	 	 <tr valign="top">
+			<td><img src=file:///C|/workspace/Kankokujin/jsp/images/common/img_footer.gif width="950" height="33"></td>
+		  </tr>
+		</table>	
+      </div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

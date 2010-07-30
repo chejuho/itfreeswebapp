@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>comment</comment>
+<entry key="contents">
+&lt;html&gt;&lt;body&gt;
+userid : USERID_X&lt;br&gt;
+password : PASSWORD_X&lt;br&gt;&lt;p&gt;
+※ 위의 링크를 클리하신 화면에서 새로운 비밀번호로 변경 가능합니다.&lt;br&gt;
+※ 비밀번호를 변경하지 않아도 로그인상의 문제는 없습니다.&lt;br&gt;
+※ 비밀번호변경은 로그인하여 회원정보변경에서도 가능합니다.&lt;br&gt;
+&lt;a href='http://SERVER_DOMAIN/Kankokujin/MemberNewPWUpdateOpen?userid=USERID_X&amp;password=PASSWORD_X'&gt;Go to Registration Page of Kankokujin.Com&lt;/a&gt;
+&lt;/body&gt;&lt;/html&gt;
+
+
+</entry>
+<entry key="subject">Finded Your ID and PW of Kankokujin.com</entry>
+</properties>

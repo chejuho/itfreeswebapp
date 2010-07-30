@@ -1,0 +1,596 @@
+<html>
+<head>
+<title>캉코쿠진닷컴</title>
+<meta http-equiv="Content-type" content="text/html; charset=euc-kr">
+<script language="javascript" src="../include/js/mypot.js"></script>
+<script language="javascript" src="/Share/Function.js"></script>
+<script language="javascript" src="../Scripts/top.js"></script>
+<script type="text/javascript">
+<!--
+	function loginform_clearbg(type) {
+		if (type == "id") {
+			document.loginform.id.style.backgroundImage = '';
+		} else if (type == "pw") {
+			document.loginform.pw.style.backgroundImage = '';
+		}
+	}
+	function loginform_bgChange(obj, act) {
+		if ( act == 'F') {
+			obj.className = 'login';
+			obj.style.backgroundColor='#B6B6B6';
+		} else {
+			obj.className = 'login';
+			obj.style.backgroundColor='#B6B6B6';	
+		}			
+	}
+//-->
+</script>
+<script src="../Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="../include/css/kankokujin.css" rel="stylesheet" type="text/css">
+<link href="../include/css/allpot.css" rel="stylesheet" type="text/css">
+<link href="../include/css/allpot_cs.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.text {
+	line-height: 8px;
+}
+.style8 {color: #9E9986; font-weight: bold; font-size: 11px; }
+.style3 {font-size: 12px}
+.style9 {color: #FA992B;
+	font-weight: bold;
+	font-size: 12px;
+}
+.style10 {color: #808080}
+.style13 {
+	font-size: 12px;
+	color: #808080;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body style="margin:0 0 0 0" onLoad="MM_preloadImages('../images/common/top_menu01_over.gif','../images/common/top_menu02_over.gif','../images/common/top_menu03_over.gif','../images/common/top_menu07_over.gif','../images/common/top_menu04_over.gif','../images/common/top_menu05_over.gif')">
+<table border="0" cellpadding="0" cellspacing="0" width="950" align="center">
+
+<!----- top메뉴 ------>
+<tr valign="top">
+	<td colspan="3">
+	
+		<table border="0" cellpadding="0" cellspacing="0" width="950" height="90">
+	  <tr>
+			<td><table width="950" border="0" cellspacing="0" cellpadding="0" bgcolor="e3dacb">
+              <tr>
+                <td width="423"><img src="../images/main/img_topline_left.gif" width="4" height="4"></td>
+                <td width="104"><img src="../images/common/space.gif" width="1" height="1"></td>
+                <td width="423"><div align="right"><img src="../images/main/img_topline_right.gif" width="4" height="4"></div></td>
+              </tr>
+            </table></td>
+	  </tr>
+	  <tr>
+	    <td><img src="../images/common/space.gif" alt="" width="1" height="5"></td>
+	    </tr>
+		<tr valign="top">
+			<td height="15" align="right"><!-- #BeginLibraryItem "/include/util.lbi" -->
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td><a href="#"><img src="../images/07util/img_title_logout.gif" width="34" height="10"></a></td>
+    <td valign="top"><img src="../images/common/util_slide.gif" width="15" height="10"></td>
+    <td valign="top"><!--img src="./images/main/img_flash.gif"-->
+        <a href="../07util/companyinfo.html"><img src="../images/common/util_menu01.gif" width="34" height="10"></a><img src="../images/common/util_slide.gif" width="15" height="10"><a href="../07util/qna_list.html"><img src="../images/common/util_menu02.gif" width="20" height="10"></a><img src="../images/common/util_slide.gif" alt="" width="15" height="10"><a href="../07util/faq.html"><img src="../images/common/util_menu03.gif" width="19" height="10"></a><img src="../images/common/util_slide.gif" alt="" width="15" height="10"><a href="../07util/sitemap.html"><img src="../images/common/util_menu04.gif" width="41" height="10"></a><img src="../images/common/util_slide.gif" alt="" width="15" height="10"><a href="../07util/mantoman.html"><img src="../images/common/util_menu05.gif" width="62" height="10"></a></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+		</tr>
+		<tr valign="top">
+		  <td><a href="../index.html"><img src="../images/common/logo.gif" width="207" height="30"></a></td>
+		  </tr>
+		<tr valign="top">
+		  <td><!-- #BeginLibraryItem "/include/navi04.lbi" -->
+          <script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+          </script>
+          <body onLoad="MM_preloadImages('../images/common/top_menu01_over.gif','../images/common/top_menu02_over.gif','../images/common/top_menu03_over.gif','../images/common/top_menu05_over.gif')">
+          <table width="950" border="0" cellpadding="0" cellspacing="0" background="../images/common/top_bg.gif">
+            <tr>
+              <td width="207"><img src="../images/common/top_banner.gif" width="207" height="54"></td>
+              <td width="523"><table width="439" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="71"><a href="../01buysell/list_detail.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','../images/common/top_menu01_over.gif',1)"><img src="../images/common/top_menu01.gif" name="Image15" width="71" height="23" border="0"></a></td>
+                    <td width="21"><img src="../images/common/top_menu_slide.gif" width="21" height="23"></td>
+                    <td width="71"><a href="../02shopinfo/list_detail.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','../images/common/top_menu02_over.gif',1)"><img src="../images/common/top_menu02.gif" name="Image16" width="71" height="23" border="0"></a></td>
+                    <td width="21"><img src="../images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+                    <td width="71"><a href="../03house/list_detail.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','../images/common/top_menu03_over.gif',1)"><img src="../images/common/top_menu03.gif" name="Image17" width="71" height="23" border="0"></a></td>
+                    <td width="21"><img src="../images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+                    <td width="71"><img src="../images/common/top_menu04_over.gif" width="71" height="23"></td>
+                    <td width="21"><img src="../images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+                    <td width="71"><a href="../05community/list_detail.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','../images/common/top_menu05_over.gif',1)"><img src="../images/common/top_menu05.gif" name="Image14" width="71" height="23" border="0"></a></td>
+                </tr>
+              </table></td>
+              <td width="210" align="center" background="../images/common/top_search_bg.gif"><table border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><input name="id" type="text" class="login" style="background:url(../include/images/common/img_userbox_id.gif) no-repeat; background-Color:#ffffff;width:140;height:20" tabindex="2" onFocus="loginform_clearbg('id');loginform_bgChange(this,'F')" onBlur="loginform_bgChange(this,'B');" onMouseDown="javascript:MouseUp1=true;" onKeyDown="javascript:KeyUp1=true;" value="업체명을 치세요!" size="25" maxlength="25"></td>
+                    <td><img src="../images/common/space.gif" alt="" width="5" height="1"></td>
+                    <td><img src="../images/common/top_search_bn.gif" width="41" height="24"></td>
+                  </tr>
+              </table></td>
+              <td width="10" align="right" background="../images/common/top_search_bg.gif"><img src="../images/common/top_bg_image.gif" width="10" height="54"></td>
+            </tr>
+          </table>
+<!-- #EndLibraryItem --></td>
+		</tr>
+		<tr valign="top">
+		  <td><img src="../images/common/space.gif" alt="" width="1" height="15"></td>
+		  </tr>
+		</table>	</td>
+</tr>
+<!----- top메뉴 ------>
+
+
+<!----- 콘텐츠 영역 ----->
+<tr>
+	
+	<!-- 좌측메뉴 -->
+	<td width="197" valign="top">
+	
+		<table width="197" height="145" border="0" cellpadding="0" cellspacing="0">
+		</table>
+        <table width="197" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="../images/common/img_userbox_top.gif"></td>
+          </tr>
+          <tr>
+            <td background="../images/common/img_userbox_bg.gif"><table width="173" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr style="padding-top:9">
+                  <td width="5">&nbsp;</td>
+                  <td width="100"><input name="id" type="password" class="login" style="background:url(../images/common/img_userbox_id.gif) no-repeat; background-Color:#ffffff;width:88;height:20" tabindex="2" onFocus="loginform_clearbg('id');loginform_bgChange(this,'F')" onBlur="loginform_bgChange(this,'B');" onMouseDown="javascript:MouseUp1=true;" onKeyDown="javascript:KeyUp1=true;" value="" size="15"></td>
+                  <td width="68" rowspan="2"><a href="#"><img src="../images/common/img_userbox_login.gif" alt="" align="absmiddle"></a></td>
+                </tr>
+                <tr style="padding-top:2">
+                  <td>&nbsp;</td>
+                  <td><input name="pw" type="password" class="login" style="background:url(../images/common/img_userbox_ps.gif) no-repeat; background-Color:#ffffff;width:88;height:20" tabindex=3 onFocus="loginform_clearbg('pw');loginform_bgChange(this,'F')" onBlur="loginform_bgChange(this,'B')" onMouseDown="javascript:MouseUp1=true;" onKeyDown="javascript:KeyUp1=true;" value="" size="15"></td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="left" class="text_11" style="padding:3 0"><span class="text_11" style="padding:3 0">
+                    <input type="checkbox" name="input">
+                  </span><span class="visit">자동로그인</span></td>
+                </tr>
+                <tr>
+                  <td colspan="3"><table width="173" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="26"><a href="../06member/join.html"><img src="../images/common/img_userbox_join.gif" alt="" width="60" height="20"></a></td>
+                        <td width="147"><a href="../06member/idpasswordfind.html"><img src="../images/common/img_userbox_search.gif" width="110" height="21"></a></td>
+                    </tr>
+                  </table></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td><img src="../images/common/img_userbox_bottom.gif" alt="" width="197" height="16"></td>
+          </tr>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="197" height="20">
+          <tr valign="top">
+            <td><table border="0" cellpadding="0" cellspacing="0" width="197" height="20">
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td><img src="../images/common/space.gif" alt="" width="1" height="10"></td>
+              </tr>
+                <tr valign="top">
+                  <td><img src="../images/common/Untitled-21.gif" width="197" height="125"></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>        </td>
+	<!-- 좌측메뉴 -->
+
+
+	<!-- 콘텐츠간 간격 -->
+	<td width="10"><img src="../images/common/space.gif" alt="" width="10" height="15"></td>
+	<!-- 콘텐츠간 간격 -->
+
+
+	<!-- 메인 콘텐츠 -->
+	<td width="743" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="743">
+
+      <!---- Location ---->
+      <tr height="30">
+        <td align="right"><span class="text_11"><a href="../index.html">Home</a> > <b>통역·번역</b></span></td>
+      </tr>
+      <!---- Location ---->
+      <tr>
+        <td><!-- QNA -->
+          <table border="0" cellpadding="0" cellspacing="0" width="743" height="20">
+              <tr>
+                <td><img src="../images/04translation/img_title.gif" width="743" height="29"></td>
+              </tr>
+              <tr>
+                <td><img src="../images/common/space.gif" alt="" width="1" height="15"></td>
+              </tr>
+            </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="680" height="20" align="center">
+            <tr style="padding-top:15">
+              <td class="visit visit"><span class="style3">※</span> 필수항목 ( <span class="style8"><span class="blue"><img src="../images/common/bu_07.gif" width="2" height="2"></span> </span>표시) 만 입력해도 가능하지만, 선택항목을 입력하면 보다 편리한 정보로 검색되실 수 있습니다.</td>
+            </tr>
+          </table>
+          <table width="680" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E2E0D6" frame="void" rules="rows" style="border-collapse:collapse;">
+            <col width="140" bgcolor="#E9F1F8" style="padding-left:10">
+            <col width="528" style="padding-left:10">
+            <tr>
+              <td bgcolor="#ffffff" colspan="2"></td>
+            </tr>
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="left" class="style8"><span class="visit visit"> <span class="blue"><img src="../images/common/bu_07.gif" width="2" height="2"></span></span> 아이디</div></td>
+              <td width="558"><span class="style3">
+                <input type="text" name="input2" size="12" maxlength="20" class="write">
+                <a href="#"><img src="../images/common/btn_repeat_check.gif" align="absmiddle"></a>&nbsp;<span class="visit">(4~12 영문, 숫자 가능)</span></span></td>
+              </tr>
+            <tr height="28">
+              <td height="19" style="padding-left:20"><div align="left" class="style8"><span class="visit visit"><span class="blue"><img src="../images/common/bu_07.gif" width="2" height="2"></span></span> 패스워드</div></td>
+              <td><span class="visit visit"><span class="style3">
+                <input type="text" name="input14" size="12" maxlength="20" class="write">
+              </span><span class="visit">(4~12 영문, 숫자 가능)</span></span></td>
+            </tr>
+            <tr height="28">
+              <td height="19" style="padding-left:20"><div align="left" class="style8"><span class="visit visit"><span class="blue"><img src="../images/common/bu_07.gif" width="2" height="2"></span></span> 이름</div></td>
+              <td><span class="visit visit">
+                <input type="text" name="input13" size="40" maxlength="20" class="write">
+              </span></td>
+            </tr>
+            <tr height="28">
+              <td height="22" style="padding-left:20"><div align="left" class="style8"><span class="visit visit"><span class="blue"><img src="../images/common/bu_07.gif" width="2" height="2"></span></span> 통번역대상언어</div></td>
+              <td><span class="visit visit">
+                <select name="select8" class="text_01">
+                  <option>전부검색</option>
+                  <option>일어</option>
+                  <option>영어</option>
+                </select>
+              </span></td>
+            </tr>
+            <tr height="28">
+              <td height="22" style="padding-left:20"><div align="left" class="style8"><span class="visit visit"><span class="blue"><img src="../images/common/bu_07.gif" width="2" height="2"></span></span> 서비스지역(일본)</div></td>
+              <td><span class="visit visit">
+                <select name="select7" class="text_01">
+                  <option selected>전부검색</option>
+                  <option>홋카이도</option>
+                  <option>도쿄</option>
+                  <option>아오모리현</option>
+                </select>
+              </span></td>
+            </tr>
+
+            <tr height="28">
+              <td width="116" height="77" rowspan="2" style="padding-left:20"><div align="left" class="style8"><span class="visit visit"><span class="blue"><img src="../images/common/bu_07.gif" width="2" height="2"></span></span> 주소1 (일본내)</div></td>
+              <td height="27"><span class="visit visit">
+                <input type="text" name="input10" size="7" maxlength="20" class="write">
+                -  
+                  <input type="text" name="input10" size="7" maxlength="20" class="write">
+                  <img src="../images/common/btn_zip.gif" width="86" height="20"><br>
+              </span></td>
+            </tr>
+            <tr height="28">
+              <td height="24"><span class="visit visit">
+                <input type="text" name="input4" size="60" maxlength="20" class="write">
+              </span></td>
+            </tr>
+            <tr height="28">
+              <td height="19" style="padding-left:20"><div align="center" class="style8">
+                  <div align="left">주소2 (일본내)</div>
+              </div></td>
+              <td><span class="visit visit">
+                <input type="text" name="input5" size="60" maxlength="20" class="write">
+              </span></td>
+            </tr>
+            
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="center" class="style8">
+                  <div align="left"><span class="visit visit"><span class="blue"><img src="../images/common/bu_07.gif" width="2" height="2"></span></span> 이메일</div>
+              </div></td>
+              <td><span class="visit visit">
+                <input type="text" name="input6" size="40" maxlength="20" class="write">
+                <br>
+              </span></td>
+            </tr>
+            <tr height="28">
+              <td height="26" style="padding-left:20"><div align="center" class="style8">
+                  <div align="left">전화번호</div>
+              </div></td>
+              <td><span class="visit visit">
+                집전화
+
+                    <input type="text" name="input7" size="7" maxlength="20" class="write">
+-
+<input type="text" name="input7" size="7" maxlength="20" class="write">
+-
+<input type="text" name="input15" size="7" maxlength="20" class="write">
+
+<input type="checkbox" name="input8"> 
+공개
+              <br>
+              휴대전화
+              <input type="text" name="input16" size="7" maxlength="20" class="write">
+-
+<input type="text" name="input16" size="7" maxlength="20" class="write">
+-
+<input type="text" name="input16" size="7" maxlength="20" class="write">
+
+              <input type="checkbox" name="input9">
+공개 </span></td>
+            </tr>
+            <col width="121" bgcolor="#f9f9f9">
+            <col width="559" style="padding:17 5">
+            <tr height="28">
+              <td height="25" style="padding-left:20"><div align="center" class="style8">
+                  <div align="left">성별</div>
+              </div></td>
+              <td><span class="visit visit"><span class="text_11 visit visit">
+                <input type="radio" name="" checked>
+                <span class="style10">남</span>
+<input type="radio" name=""> 
+<span class="style10">녀</span></span><br>
+              </span></td>
+            </tr>
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="left" class="style8">연령</div></td>
+              <td><span class="style3"><span class="visit visit">
+                <input name="input3" type="text" class="write" size="7" maxlength="20">
+              </span> 년 <span class="visit visit">
+              <input name="input11" type="text" class="write" size="7" maxlength="20">
+              </span> 월</span></td>
+            </tr>
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="left" class="style8">국적</div></td>
+              <td><span class="visit visit">
+                <select name="select" class="text_01">
+                  <option>국적</option>
+                </select>
+              </span></td>
+            </tr>
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="left" class="style8">사진첨부</div></td>
+              <td><span class="visit visit">
+                <input type="text" name="input12" size="40" maxlength="20" class="write">
+              </span><img src="../images/common/btn_img_search.gif" width="73" height="20"></td>
+            </tr>
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="left" class="style8">이력서첨부</div></td>
+              <td><span class="visit visit">
+                <input type="text" name="input12" size="40" maxlength="20" class="write">
+              </span><img src="../images/common/btn_searching.gif" width="43" height="20"></td>
+            </tr>
+            <tr height="28">
+              <td height="24" rowspan="2" style="padding-left:20"><div align="left" class="style8">요금체계</div></td>
+              <td><span class="text_11 visit visit"> <span class="style13">통역<br>
+                </span></span>
+                  <table width="558" border="0" cellpadding="0" cellspacing="0" class="text_01">
+                    <tr>
+                      <td><span class="text_11 visit visit style3 style10">일반상담, 여행가이드</span></td>
+                      <td><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/1시간</span></span><span class="text_11 style10">(9:00～17:00)</span></td>
+                      <td><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/1시간</span></span><span class="text_11 style10">(17:00</span><span class="visit visit style3 style10"><span class="visit visit style3">이후)</span></span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="text_11 visit visit style3 style10">회화통역</span></td>
+                      <td><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/1시간</span></span><span class="text_11 style10">(9:00～17:00)</span></td>
+                      <td><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/1시간</span></span><span class="text_11 style10">(17:00</span><span class="visit visit style3 style10"><span class="visit visit style3">이후)</span></span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="text_11 visit visit style3 style10">전문통역</span></td>
+                      <td><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/1시간</span></span><span class="text_11 style10">(9:00～17:00)</span></td>
+                      <td><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/1시간</span></span><span class="text_11 style10">(17:00</span><span class="visit visit style3 style10"><span class="visit visit style3">이후)</span></span></td>
+                    </tr>
+                    <tr>
+                      <td width="140"><span class="text_11 visit visit style3 style10">동시통역</span></td>
+                      <td width="222"><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/1시간</span></span><span class="text_11 style10">(9:00～17:00)</span></td>
+                      <td width="196"><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/1시간</span></span><span class="text_11 style10">(17:00</span><span class="visit visit style3 style10"><span class="visit visit style3">이후)</span></span></td>
+                    </tr>
+                </table></td>
+            </tr>
+            <tr height="28">
+              <td><span class="text_11 visit visit"><span class="style13">번역</span><br>
+                </span>
+                  <table width="558" border="0" cellpadding="0" cellspacing="0" class="text_01">
+                    <tr>
+                      <td width="87"><span class="text_11 visit visit style3 style10">일반문서</span></td>
+                      <td width="202"><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/A4 1페이지(</span></span><span class="text_11">400</span><span class="visit visit style3 style10"><span class="visit visit style3">자까지)</span></span></td>
+                      <td width="269"><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/A4 1페이지(</span></span><span class="text_11">400</span><span class="visit visit style3 style10"><span class="visit visit style3">자이상</span></span><span class="text_11"> 200</span><span class="visit visit style3 style10"><span class="visit visit style3">자까지)</span></span></td>
+                    </tr>
+                    <tr>
+                      <td><span class="text_11 visit visit style3 style10">전문문서</span></td>
+                      <td><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/A4 1페이지(</span></span><span class="text_11">400</span><span class="visit visit style3 style10"><span class="visit visit style3">자까지)</span></span></td>
+                      <td><span class="visit visit style3 style10"><span class="visit visit style3">
+                        <input type="text" name="input12" size="7" maxlength="20" class="write">
+                        엔/A4 1페이지(<span class="text_11">400</span>자이상<span class="text_11"> 200</span>자까지)</span></span></td>
+                    </tr>
+                </table></td>
+            </tr>
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="left" class="style8">경력</div></td>
+              <td><span class="visit visit">
+                <select name="select9" class="text_01">
+                  <option>5</option>
+                                                                </select>
+              년</span></td>
+            </tr>
+            <tr height="28">
+              <td height="24" rowspan="2" style="padding-left:20"><div align="left" class="style8">서비스가능시간</div></td>
+              <td><span class="style3">
+                <span class="text_11 visit visit">
+                <input type="radio" name="" checked>
+                <span class="style10">언제든지 가능</span></span></span></td>
+            </tr>
+            <tr height="28">
+              <td><span class="style3"><span class="text_11 visit visit">
+                <input type="radio" name="">
+                <span class="style10">이하의 기간중가능</span></span><span class="visit"> (최대5건까지) </span><img src="../images/common/btn_period.gif" width="63" height="20"><br>
+                <select name="select10" class="text_01">
+                  <option>2008</option>
+                  <option>2009</option>
+                  <option>2007</option>
+                </select>
+년
+<select name="select10" class="text_01">
+  <option selected>01</option>
+  <option>02</option>
+  <option>03</option>
+</select>
+월
+<select name="select11" class="text_01">
+  <option selected>01</option>
+  <option>02</option>
+  <option>03</option>
+</select>
+일 <a href="#"><img src="../images/04translation/btn_calendar.gif" width="22" height="20"></a>부터 ~
+<select name="select2" class="text_01">
+  <option>2008</option>
+  <option>2009</option>
+  <option>2007</option>
+</select>
+년
+<select name="select2" class="text_01">
+  <option selected>01</option>
+  <option>02</option>
+  <option>03</option>
+</select>
+월
+<select name="select2" class="text_01">
+  <option selected>01</option>
+  <option>02</option>
+  <option>03</option>
+</select>
+일 <a href="#"><img src="../images/04translation/btn_calendar.gif" width="22" height="20"></a>까지</span></td>
+            </tr>
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="left" class="style8">자격증</div></td>
+              <td><span class="text_11">
+                예) 2005년 6월 일본통역가이드 1급, 2004년 3월 일본어 능력시험 1급<br>
+                <span class="visit visit">
+                <textarea name="textarea2" rows="5" cols="80" class="msg"></textarea>
+                </span></span></td>
+            </tr>
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="left" class="style8">경력소개</div></td>
+              <td><span class="text_11"> 예) 2003년 6월 한일청소년야구친선경기통역, 2004년 3월 일본국무성주체 한일문학교류 통역<br>
+                    <span class="visit visit">
+                    <textarea name="textarea2" rows="5" cols="80" class="msg"></textarea>
+                  </span></span></td>
+            </tr>
+            <tr height="28">
+              <td height="24" style="padding-left:20"><div align="left" class="style8">자기소개</div></td>
+              <td><span class="visit visit">
+                <textarea name="textarea" rows="5" cols="80" class="msg"></textarea>
+              </span></td>
+            </tr>
+            
+            <tr>
+              <td bgcolor="#ffffff" colspan="2"></td>
+            </tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="680" height="20" align="center">
+              <tr style="padding-top:15">
+                <td align="right"><a href="list_detail.html"><img src="../images/common/btn_clubnotice_list.gif" width="48" height="20">&nbsp;<img src="../images/common/btn_club_cancel.gif" width="48" height="20">&nbsp;<img src="../images/common/btn_club_ok.gif" width="48" height="20"></a></td>
+              </tr>
+            </table>
+      </tr>
+    </table>
+<tr height="40">
+	<td colspan="3"></td>
+</tr>
+
+
+<!----- Footer 영역 ----->
+
+<tr valign="top">
+	<td colspan="3"><!-- #BeginLibraryItem "/include/footer.lbi" -->
+<table width="950" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="960"><table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td background="../images/common/img_fooer_bg.gif"><img src="../images/common/img_footer_copy.gif" width="512" height="33"></td>
+        <td background="../images/common/img_fooer_bg.gif"><img src="../images/common/space.gif" width="4" height="1"></td>
+        <td><a href="../07util/companyinfo.html"><img src="../images/common/img_footer_company.gif" width="33" height="33"></a></td>
+        <td><img src="../images/common/img_footer_line.gif" width="20" height="33"></td>
+        <td><a href="../06member/mofservice.html"><img src="../images/common/img_footer_mofservice.gif" width="33" height="33"></a></td>
+        <td><img src="../images/common/img_footer_line.gif" alt="" width="20" height="33"></td>
+        <td><a href="../06member/membersafe.html"><img src="../images/common/img_footer_membersafe.gif" width="66" height="33"></a></td>
+        <td><img src="../images/common/img_footer_line.gif" alt="" width="20" height="33"></td>
+        <td><img src="../images/common/img_footer_email.gif" width="99" height="33"></td>
+        <td><img src="../images/common/img_footer_line.gif" alt="" width="20" height="33"></td>
+        <td><a href="../07util/mantoman.html"><img src="../images/common/img_footer_contactus.gif" width="33" height="33"></a></td>
+        <td><img src="../images/common/img_footer_line.gif" alt="" width="20" height="33"></td>
+        <td><a href="../07util/sitemap.html"><img src="../images/common/img_footer_sitemap.gif" width="33" height="33"></a></td>
+        <td><a href="javascript:back_top()" onFocus="blur()"><img src="../images/common/img_footer_top.gif" width="37" height="33"></a></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+</tr>
+<!----- Footer 영역 ----->
+</table>
+</body>
+
+</html>

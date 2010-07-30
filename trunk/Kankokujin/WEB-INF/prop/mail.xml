@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>comment</comment>
+<entry key="contents">
+<P><FONT style="BACKGROUND-COLOR: #ffffff">------------------------------------------------------------------<BR>&nbsp;【Kankokujin】회원등록 승인<BR>------------------------------------------------------------------<BR>金　珍님</FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">안녕하세요.캉코쿠진닷컴입니다. <BR>캉코쿠진닷컴 회원이 되신 것을 진심으로 환영합니다. </FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">회원님이 등록하신 이름(Name), 아이디(ID), 비밀번호(Password) 입니다.<BR>다시 한번 확인 부탁드립니다. </FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">================================================================<BR>【회원 등록 정보】<BR>================================================================</FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">・Name ：金　珍<BR>・ID ：comz<BR>・Password ：jin</FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">================================================================</FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">↓↓↓↓↓&nbsp; 아래의 주소를 클릭하시면 회원가입이 완료됩니다.&nbsp; ↓↓↓↓↓</FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Go to Registration Page of Kankokujin.Com </FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">저희 캉코쿠진닷컴은 보다 더 나은 서비스를 위해 항상 열심히 하겠습니다.<BR>언제나 성원 부탁 드립니다.</FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff"></FONT>&nbsp;</P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">&nbsp;　※로그인 후 모든 정보를 이용하실 수 있습니다. [바로가기]</FONT></P>
+<P><FONT style="BACKGROUND-COLOR: #ffffff">================================================================<BR>株式会社　캉코쿠진닷컴<BR>===========</FONT></P>
+<P></P>
+</entry>
+<entry key="title">これはタイトルです。</entry>
+</properties>

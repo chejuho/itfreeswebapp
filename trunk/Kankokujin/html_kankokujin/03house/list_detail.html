@@ -1,0 +1,690 @@
+<html>
+<head>
+<title>캉코쿠진닷컴</title>
+<meta http-equiv="Content-type" content="text/html; charset=euc-kr">
+<script language="javascript" src="../include/js/mypot.js"></script>
+<script language="javascript" src="/Share/Function.js"></script>
+<script language="javascript" src="../Scripts/top.js"></script>
+<script type="text/javascript">
+<!--
+	function loginform_clearbg(type) {
+		if (type == "id") {
+			document.loginform.id.style.backgroundImage = '';
+		} else if (type == "pw") {
+			document.loginform.pw.style.backgroundImage = '';
+		}
+	}
+	function loginform_bgChange(obj, act) {
+		if ( act == 'F') {
+			obj.className = 'login';
+			obj.style.backgroundColor='#B6B6B6';
+		} else {
+			obj.className = 'login';
+			obj.style.backgroundColor='#B6B6B6';	
+		}			
+	}
+//-->
+</script>
+<script src="../Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="../include/css/kankokujin.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="margin:0 0 0 0" onLoad="MM_preloadImages('../images/common/top_menu01_over.gif','../images/common/top_menu02_over.gif','../images/common/top_menu06_over.gif','../images/common/top_menu07_over.gif','../images/common/top_menu04_over.gif','../images/common/top_menu05_over.gif')">
+<table border="0" cellpadding="0" cellspacing="0" width="950" align="center">
+
+<!----- top메뉴 ------>
+<tr valign="top">
+	<td colspan="3">
+	
+		<table border="0" cellpadding="0" cellspacing="0" width="950" height="90">
+	  <tr>
+			<td><table width="950" border="0" cellspacing="0" cellpadding="0" bgcolor="e3dacb">
+              <tr>
+                <td width="423"><img src="../images/main/img_topline_left.gif" width="4" height="4"></td>
+                <td width="104"><img src="../images/common/space.gif" width="1" height="1"></td>
+                <td width="423"><div align="right"><img src="../images/main/img_topline_right.gif" width="4" height="4"></div></td>
+              </tr>
+            </table></td>
+	  </tr>
+	  <tr>
+	    <td><img src="../images/common/space.gif" alt="" width="1" height="5"></td>
+	    </tr>
+		<tr valign="top">
+			<td height="15" align="right"><!-- #BeginLibraryItem "/include/util.lbi" -->
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td><a href="#"><img src="../images/07util/img_title_logout.gif" width="34" height="10"></a></td>
+    <td valign="top"><img src="../images/common/util_slide.gif" width="15" height="10"></td>
+    <td valign="top"><!--img src="./images/main/img_flash.gif"-->
+        <a href="../07util/companyinfo.html"><img src="../images/common/util_menu01.gif" width="34" height="10"></a><img src="../images/common/util_slide.gif" width="15" height="10"><a href="../07util/qna_list.html"><img src="../images/common/util_menu02.gif" width="20" height="10"></a><img src="../images/common/util_slide.gif" alt="" width="15" height="10"><a href="../07util/faq.html"><img src="../images/common/util_menu03.gif" width="19" height="10"></a><img src="../images/common/util_slide.gif" alt="" width="15" height="10"><a href="../07util/sitemap.html"><img src="../images/common/util_menu04.gif" width="41" height="10"></a><img src="../images/common/util_slide.gif" alt="" width="15" height="10"><a href="../07util/mantoman.html"><img src="../images/common/util_menu05.gif" width="62" height="10"></a></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+		</tr>
+		<tr valign="top">
+		  <td><a href="../index.html"><img src="../images/common/logo.gif" width="207" height="30"></a></td>
+		  </tr>
+		<tr valign="top">
+		  <td><!-- #BeginLibraryItem "/include/navi03.lbi" -->
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<body onLoad="MM_preloadImages('../images/common/top_menu01_over.gif','../images/common/top_menu02_over.gif','../images/common/top_menu04_over.gif','../images/common/top_menu05_over.gif')">
+<table width="950" border="0" cellpadding="0" cellspacing="0" background="../images/common/top_bg.gif">
+  <tr>
+    <td width="207"><img src="../images/common/top_banner.gif" width="207" height="54"></td>
+    <td width="523"><table width="439" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="71"><a href="../01buysell/list_detail.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','../images/common/top_menu01_over.gif',1)"><img src="../images/common/top_menu01.gif" name="Image15" width="71" height="23" border="0"></a></td>
+        <td width="21"><img src="../images/common/top_menu_slide.gif" width="21" height="23"></td>
+        <td width="71"><a href="../02shopinfo/list_detail.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','../images/common/top_menu02_over.gif',1)"><img src="../images/common/top_menu02.gif" name="Image16" width="71" height="23" border="0"></a></td>
+        <td width="21"><img src="../images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+        <td width="71"><img src="../images/common/top_menu03_over.gif" width="71" height="23"></td>
+        <td width="21"><img src="../images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+        <td width="71"><a href="../04translation/list_detail.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','../images/common/top_menu04_over.gif',1)"><img src="../images/common/top_menu04.gif" name="Image13" width="71" height="23" border="0"></a></td>
+        <td width="21"><img src="../images/common/top_menu_slide.gif" alt="" width="21" height="23"></td>
+        <td width="71"><a href="../05community/list_detail.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','../images/common/top_menu05_over.gif',1)"><img src="../images/common/top_menu05.gif" name="Image14" width="71" height="23" border="0"></a></td>
+      </tr>
+    </table></td>
+    <td width="210" align="center" background="../images/common/top_search_bg.gif"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><input name="id" type="text" class="login" style="background:url(../include/images/common/img_userbox_id.gif) no-repeat; background-Color:#ffffff;width:140;height:20" tabindex="2" onFocus="loginform_clearbg('id');loginform_bgChange(this,'F')" onBlur="loginform_bgChange(this,'B');" onMouseDown="javascript:MouseUp1=true;" onKeyDown="javascript:KeyUp1=true;" value="업체명을 치세요!" size="25" maxlength="25"></td>
+        <td><img src="../images/common/space.gif" alt="" width="5" height="1"></td>
+        <td><img src="../images/common/top_search_bn.gif" width="41" height="24"></td>
+      </tr>
+    </table></td>
+    <td width="10" align="right" background="../images/common/top_search_bg.gif"><img src="../images/common/top_bg_image.gif" width="10" height="54"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+		</tr>
+		<tr valign="top">
+		  <td><img src="../images/common/space.gif" alt="" width="1" height="15"></td>
+		  </tr>
+		</table>	</td>
+</tr>
+<!----- top메뉴 ------>
+
+
+<!----- 콘텐츠 영역 ----->
+<tr>
+	
+	<!-- 좌측메뉴 -->
+	<td width="197" valign="top">
+	
+		<table width="197" height="145" border="0" cellpadding="0" cellspacing="0">
+		</table>
+        <table width="197" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="../images/01buysell/img_left_menu_top.gif" width="197" height="11"></td>
+          </tr>
+          <tr>
+            <td background="../images/01buysell/img_left_menu_bg.gif"><table width="173" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="15" align="left" class="text_11" style="padding:3 0"><img src="../images/01buysell/icon01.gif" width="9" height="9"></td>
+                  <td colspan="3" align="left" class="text_11" style="padding:3 0"><span class="visit style3"><strong>부동산</strong></span></td>
+                </tr>
+                <tr>
+                  <td colspan="4" bgcolor="c9d2e5"><img src="../images/common/space.gif" alt="" width="1" height="1"></td>
+                </tr>
+                <tr>
+                  <td height="22" align="left" class="text_11" style="padding:3 0"><img src="../images/common/space.gif" alt="" width="15" height="15"></td>
+                  <td align="left" class="text_11" style="padding:3 0"><img src="../images/01buysell/icon03.gif" width="9" height="9"></td>
+                  <td width="159" colspan="2" align="left" class="text_11" style="padding:3 0"><span class="blue_bold">가전</span></td>
+                </tr>
+                <tr>
+                  <td height="21" align="left" class="text_11" style="padding:3 0">&nbsp;</td>
+                  <td align="left" class="text_11" style="padding:3 0"><img src="../images/01buysell/icon04.gif" width="9" height="9"></td>
+                  <td colspan="2" align="left" class="text_11" style="padding:3 0"><span class="blue_bold">컴퓨터</span></td>
+                </tr>
+                <tr>
+                  <td align="left" class="text_11" style="padding:3 0">&nbsp;</td>
+                  <td colspan="3" class="text_11"><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="9" height="53" align="left" >&nbsp;</td>
+                        <td width="150" align="left" valign="top" ><span class="text_11" style="padding:3 0"><img src="../images/01buysell/icon05.gif" width="9" height="9" /><span class="text_11 blue" style="padding:3 0">컴퓨터</span><span class="style3"><br>
+                                <img src="../images/01buysell/icon05.gif" width="9" height="9" /><span class="style10">컴퓨터<br>
+                                <img src="../images/01buysell/icon05.gif" width="9" height="9" />컴퓨터</span></span></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr>
+                  <td height="21" align="left" style="padding:3 0">&nbsp;</td>
+                  <td align="left"><img src="../images/01buysell/icon04.gif" width="9" height="9"></td>
+                  <td colspan="2" align="left" ><span class="blue_bold">컴퓨터</span></td>
+                </tr>
+                <tr>
+                  <td align="left" class="text_11">&nbsp;</td>
+                  <td colspan="3" class="text_11"><table width="150" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="9" align="left" class="text_11">&nbsp;</td>
+                        <td width="152" align="left" valign="top" class="text_11" style="padding:3 0"><span class="text_11" style="padding:3 0"><img src="../images/01buysell/icon05.gif" width="9" height="9" /><span class="text_11 blue" style="padding:3 0">컴퓨터</span></span></td>
+                      </tr>
+                    </table>
+                      <table width="140" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="15" align="left">&nbsp;</td>
+                          <td width="144" align="left" valign="top"> - 게임기<br>
+                            - 게임기<br>
+                            - 게임기<br></td>
+                        </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                  <td height="22" align="left" class="text_11" style="padding:3 0"><br></td>
+                  <td width="9" align="left" class="text_11" style="padding:3 0"><img src="../images/01buysell/icon03.gif" width="9" height="9"></td>
+                  <td colspan="2" align="left" class="text_11" style="padding:3 0"><span class="blue_bold">가전</span></td>
+                </tr>
+                <tr>
+                  <td height="28"><span class="text_11" style="padding:3 0"><img src="../images/01buysell/icon03.gif" width="9" height="9"></span></td>
+                  <td colspan="3"><strong>전체보기</strong></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td><img src="../images/01buysell/img_left_menu_bottom.gif" width="197" height="11"></td>
+          </tr>
+        </table>
+    <table border="0" cellpadding="0" cellspacing="0" width="197" height="20">
+          <tr valign="top">
+            <td><table border="0" cellpadding="0" cellspacing="0" width="197" height="20">
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td></td>
+                </tr>
+                <tr valign="top">
+                  <td><img src="../images/common/space.gif" alt="" width="1" height="10"></td>
+              </tr>
+                <tr valign="top">
+                  <td><table width="197" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="197"><img src="../images/common/img_search_top.gif" width="197" height="28"></td>
+                    </tr>
+                    <tr>
+                      <td background="../images/main/img_left_quick_bg.gif"><table width="197" height="56" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td width="23" height="23" class="text_11" style="padding-top:3"><p>&nbsp;</p></td>
+                            <td colspan="3" class="text_11" style="padding-top:3"><select name="select2" class="text_profile" width="50">
+                                <option selected>통합검색</option>
+                                <option>신오오쿠보 오오쿠 지역</option>
+                                <option>다카다노바바 지역</option>
+                              </select>
+                                </span></td>
+                          </tr>
+                          <tr>
+                            <td height="23" class="text_11" style="padding-top:3"><p>&nbsp;</p></td>
+                            <td colspan="3" class="text_11" style="padding-top:3"><input name="id3" type="text" class="text_profile" id="id3" style= "background-Color:#ffffff;width:145;height:20" tabindex="2" onFocus="loginform_clearbg('id');loginform_bgChange(this,'F')" onBlur="loginform_bgChange(this,'B');" onMouseDown="javascript:MouseUp1=true;" onKeyDown="javascript:KeyUp1=true;" size="25" maxlength="25"></td>
+                          </tr>
+                          <tr>
+                            <td height="5" class="text_11" style="padding-top:3"><p><img src="../images/common/space.gif" alt="" width="1" height="5"></p></td>
+                            <td colspan="3" class="text_11" style="padding-top:3"></span><img src="../images/common/space.gif" alt="" width="1" height="5"></td>
+                          </tr>
+                          <tr>
+                            <td height="5" class="text_11" style="padding-top:3"><p><img src="../images/common/space.gif" alt="" width="1" height="5"></p></td>
+                            <td width="78"><div align="left"><a href="#">자세히검색...</a></div></td>
+                            <td width="78"><div align="right"><img src="../images/common/bn_search.gif" width="59" height="18"></div></td>
+                            <td width="18">&nbsp;</td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                    <tr>
+                      <td><img src="../images/main/img_left_quick_bottom.gif" width="197" height="8"></td>
+                    </tr>
+                  </table></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>        </td>
+	<!-- 좌측메뉴 -->
+
+
+	<!-- 콘텐츠간 간격 -->
+	<td width="10"><img src="../images/common/space.gif" alt="" width="10" height="15"></td>
+	<!-- 콘텐츠간 간격 -->
+
+
+	<!-- 메인 콘텐츠 -->
+	<td width="743" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="740">
+      <!---- Location ---->
+      <tr height="30">
+        <td align="right" background="../index.html" class="text_11">
+          Home > <b>부동산</b></td>
+      </tr>
+      <!---- Location ---->
+      <tr valign="top">
+        <td><table border="0" cellpadding="0" cellspacing="0" width="743" height="74">
+          <tr>
+            <td><img src="../images/03house/img_title.gif" width="743" height="29"></td>
+          </tr>
+          <tr>
+            <td height="45" style="padding:10 0"><div align="center">
+              <table width="705" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="8"><img src="../images/common/img_search_box_left.gif" width="8" height="76"></td>
+                  <td width="685" background="../images/common/img_search_box_bg.gif"><table width="675" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="151" style="padding-left:20"><img src="../images/common/img_search_roomtitle01.gif" width="104" height="24"></td>
+                        <td width="78" style="padding-left:20"><span class="text_11" style="padding-top:3">
+                          <select name="select4" class="text_profile" width="50">
+                            <option selected>지역</option>
+                            <option>신주쿠구</option>
+                            <option>나카노구</option>
+                          </select>
+                        </span></td>
+                        <td width="78" style="padding-left:10"><span class="text_11" style="padding-top:3">
+                          <select name="select5" class="text_profile" width="50">
+                            <option selected>종류</option>
+                            <option>기숙사형</option>
+                            <option>홈스테이</option>
+                          </select>
+                        </span></td>
+                        <td width="72" style="padding-left:10"><span class="text_11" style="padding-top:3">
+                          <select name="select6" class="text_profile" width="50">
+                            <option selected>야칭</option>
+                            <option>4만엔대</option>
+                            <option>6만엔대</option>
+                          </select>
+                        </span></td>
+                        <td width="84" style="padding-left:10"><span class="text_11" style="padding-top:3">
+                          <select name="select7" class="text_profile" width="50">
+                            <option selected>검색날짜</option>
+                            <option>최신1주일</option>
+                            <option>최신2주일</option>
+                          </select>
+                        </span></td>
+                        <td width="158" style="padding-left:20"><img src="../images/common/img_search_button.gif" width="84" height="29"></td>
+                        <td width="54"><img src="../images/common/img_search_room.gif" width="49" height="41"></td>
+                      </tr>
+                  </table></td>
+                  <td width="10"><img src="../images/common/img_search_box_right.gif" width="8" height="76"></td>
+                </tr>
+              </table>
+            </div></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center">
+        </td>
+      </tr>
+    </table>
+	  <table border="0" cellpadding="0" cellspacing="0" width="743">
+        <tr valign="top">
+          <td><!-- 리스트 -->
+            <table border="0" cellpadding="0" cellspacing="0" width="680" align="center">
+              <tr height="20">
+                <td height="20"><table border="0" cellspacing="0" cellpadding="0" style="margin:5px 4px 0 0;">
+                  <tr>
+                    <td style="padding:0 3px 0 0;"><img src="../images/common/ico42.gif" alt="" style="margin:0 0 3px 0;"/></td>
+                    <td style="padding:0 5px 0 0;"><strong>미리보기형</strong></td>
+                    <td style="padding:0 3px 0 0;"><img src="../images/common/ico41.gif" alt="" style="margin:0 0 3px 0;"/></td>
+                    <td style="padding:0 5px 0 0;"><a href="list.html" class="tap_02">텍스트형</a></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+          <table width="680" border="0" align="center" cellpadding="0" cellspacing="0">
+            <col width="87" align="center">
+                <col width="314">
+                <col width="94" align="center">
+                <col width="97" align="center">
+                <col width="88" align="center">
+                <tr valign="top">
+                  <td colspan="7"><img src="../images/02shopinfo/img_notice_title.gif"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="28">
+                  <td width="73">39427</td>
+                  <td width="338" style="padding-left:10"><a href="read.html" class="style3">뿌늉뿌늉이 왔다</a></td>
+                  <td width="92">캉코쿠진닷컴</td>
+                  <td width="99">2004-12-13</td>
+                  <td width="78">15</td>
+                </tr>
+                <tr height="28">
+                  <td colspan="5"><table width="678" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="95"><span style="padding:10"><img src="../images/main/img_center_img01.gif"></span></td>
+                        <td width="10">&nbsp;</td>
+                        <td width="573"><span class="style3"><a href="read.html"><strong>신주쿠</strong> 덴샤로 30분 ? 맨션 1층에는 고급 안티크점이 있고 옥상에는 공간이 있어 가끔 하늘을 올려다 볼 수 있습니다 ?   방은 대체로 6조/ 주방 5~6조 혹은 4조정도의 방2/ 유닛바스/ 오시이레 ? 맨션2층 이상 ?.</a></span></td>
+                      </tr>
+                  </table></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+                <tr height="1" bgcolor="#ECEAE3">
+                  <td colspan="7"></td>
+                </tr>
+              </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="680" height="10">
+                <tr style="padding-top:10">
+                  <td align="right"><a href="write.html"><img src="../images/common/btn_cs_write.gif"></a></td>
+                </tr>
+              </table>
+            <!-- 리스트 -->
+              <!-- Page No-->
+              <table border="0" cellpadding="0" cellspacing="0" align="center">
+                <tr valign="top">
+                  <td style="padding-top:1"><img src="../images/common/btn_page_bprev.gif" align="absmiddle"> <img src="../images/common/btn_page_sprev.gif" align="absmiddle"></td>
+                  <td class="text_11" style="padding:0 7">1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10</td>
+                  <td style="padding-top:1"><img src="../images/common/btn_page_snext.gif" align="absmiddle"> <img src="../images/common/btn_page_bnext.gif" align="absmiddle"></td>
+                </tr>
+                <tr height="10">
+                  <td></td>
+                </tr>
+              </table>
+            <!-- Page No-->
+              <!-- 검색창-->
+              <table border="0" cellpadding="0" cellspacing="0" width="260" align="center">
+                <form name="form01">
+                  <tr height="1" bgcolor="#D9D9D9">
+                    <td colspan="3"></td>
+                  </tr>
+                  <tr height="1" bgcolor="#FFFFFF">
+                    <td colspan="3"></td>
+                  </tr>
+                  <tr height="33" bgcolor="#FAF9F5">
+                    <td style="padding-left:10"><SELECT NAME="select" class="search">
+                        <option>제목+내용</option>
+                        <option>제목</option>
+                        <option>내용</option>
+                        <option>글쓴이</option>
+                    </SELECT></td>
+                    <td align="center"><INPUT TYPE="text" NAME="input2" class="search" style="width:125"></td>
+                    <td align="right" style="padding-right:10"><img src="../images/common/btn_gp_search.gif" align="absmiddle"></td>
+                  </tr>
+                  <tr height="1" bgcolor="#FFFFFF">
+                    <td colspan="3"></td>
+                  </tr>
+                  <tr height="1" bgcolor="#D9D9D9">
+                    <td colspan="3"></td>
+                  </tr>
+                </form>
+              </table>
+              <!-- 검색창-->          </td>
+        </tr>
+      </table>
+	  <!----- 전체 공지사항 ----->      
+	  <!----- 전체 공지사항 ----->
+	  <!-- 포토플레이어 -->
+      <!-- 포토플레이어 -->      <!----- 스폐셜 ----->	</td>
+	<!-- 메인 콘텐츠 -->
+
+
+	<!-- 콘텐츠간 간격 -->
+	<!-- 콘텐츠간 간격 -->
+
+
+	<!-- 우측콘텐츠 -->
+	<!-- 우측콘텐츠 -->
+</tr>
+
+<!----- 콘텐츠 영역 ----->
+
+
+<tr height="40">
+	<td colspan="3"></td>
+</tr>
+
+
+<!----- Footer 영역 ----->
+
+<tr valign="top">
+	<td colspan="3"><!-- #BeginLibraryItem "/include/footer.lbi" -->
+<table width="950" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="960"><table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td background="../images/common/img_fooer_bg.gif"><img src="../images/common/img_footer_copy.gif" width="512" height="33"></td>
+        <td background="../images/common/img_fooer_bg.gif"><img src="../images/common/space.gif" width="4" height="1"></td>
+        <td><a href="../07util/companyinfo.html"><img src="../images/common/img_footer_company.gif" width="33" height="33"></a></td>
+        <td><img src="../images/common/img_footer_line.gif" width="20" height="33"></td>
+        <td><a href="../06member/mofservice.html"><img src="../images/common/img_footer_mofservice.gif" width="33" height="33"></a></td>
+        <td><img src="../images/common/img_footer_line.gif" alt="" width="20" height="33"></td>
+        <td><a href="../06member/membersafe.html"><img src="../images/common/img_footer_membersafe.gif" width="66" height="33"></a></td>
+        <td><img src="../images/common/img_footer_line.gif" alt="" width="20" height="33"></td>
+        <td><img src="../images/common/img_footer_email.gif" width="99" height="33"></td>
+        <td><img src="../images/common/img_footer_line.gif" alt="" width="20" height="33"></td>
+        <td><a href="../07util/mantoman.html"><img src="../images/common/img_footer_contactus.gif" width="33" height="33"></a></td>
+        <td><img src="../images/common/img_footer_line.gif" alt="" width="20" height="33"></td>
+        <td><a href="../07util/sitemap.html"><img src="../images/common/img_footer_sitemap.gif" width="33" height="33"></a></td>
+        <td><a href="javascript:back_top()" onFocus="blur()"><img src="../images/common/img_footer_top.gif" width="37" height="33"></a></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+</tr>
+<!----- Footer 영역 ----->
+</table>
+</body>
+
+</html>

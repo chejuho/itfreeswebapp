@@ -1,0 +1,3 @@
+﻿*Ianimal/animal_cat.jpgI*	고양이
+*Ianimal/animal_dog.jpgI*	개
+*Ianimal/animal_bear.jpgI*	bear

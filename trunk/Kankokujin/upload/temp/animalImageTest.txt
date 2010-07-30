@@ -1,0 +1,4 @@
+﻿*Ianimal/animal_cat.jpgI*	cat
+*Ianimal/animal_dog.jpgI*	dog
+*Ianimal/animal_bear.jpgI*	bear
+

@@ -1,0 +1,67 @@
+
+ul{
+		list-style-image:none;
+		list-style-position:outside;
+		list-style-type:none;
+		margin:0;
+		padding:0;	
+	}
+	
+	li{
+		 background-position:0 -176px;
+		 padding:3px 0 2px 13px;
+	}
+	span.none { 
+		background: url(folder-closed.gif) no-repeat;
+		cursor: pointer;
+		padding: 0px 0px 0px 20px; 
+		font-size:12px;
+	}
+	span.noneselect { 
+		background: url(folder.gif) no-repeat;
+		cursor: pointer;
+		padding: 0px 0px 0px 20px; 
+		color:#0066CC;
+		font-size:12px;
+	}
+	span.plus { 
+		background: url(folder-closed.gif) no-repeat;
+		cursor: pointer;
+		padding: 0px 0px 0px 20px; 
+		font-size:12px;
+	}
+	span.plusselect { 
+		background: url(folder-closed.gif) no-repeat;
+		cursor: pointer;
+		padding: 0px 0px 0px 20px; 
+		color:#0066CC;
+		font-size:12px;
+	}
+	span.minus { 
+		background: url(folder.gif) no-repeat;
+		cursor: pointer;
+		padding: 0px 0px 0px 20px;
+		font-size:12px;  
+	}
+	span.minusselect { 
+		background: url(folder.gif) no-repeat;
+		cursor: pointer;
+		padding: 0px 0px 0px 20px;  
+		color:#0066CC;
+		font-size:12px;
+	}
+	span.bookmark { 
+		background: url(file.gif) no-repeat; 
+		cursor: pointer;
+		padding: 0px 0px 5px 20px; 
+		font-size:12px;
+	}
+	span.bookmarkselect { 
+		background: url(file.gif) no-repeat; 
+		cursor: pointer;
+		padding: 0px 0px 5px 20px;
+		color:#0066CC;
+		font-size:12px;
+	}
+	
+	

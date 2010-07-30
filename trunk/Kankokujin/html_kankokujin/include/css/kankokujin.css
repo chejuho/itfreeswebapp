@@ -1,0 +1,117 @@
+@charset "euc-kr";
+/* HTML */
+BODY	{background:url("../image/main_bg.gif") no-repeat;background-color:#ffffff; color:#686868; font-family:dotum;
+ font-size:12px; line-height:17px; margin:0}
+TD, TH	{
+	color:#686868;
+	font-family:dotum;
+	font-size:12px;
+	line-height:17px;
+	font-size: 12px;
+}
+IMG	{border:0}
+
+SELECT, TEXTAREA	{
+	color:#686868;
+	font-family:µ¸¿ò;
+	font-size:12px;
+	line-height:17px;
+	background-color:#FFFFFF;
+	border-width:0;
+} 
+TEXTAREA.msg	{
+	color:#464646;
+	font-family:dotum;
+	font-size:12px;
+	line-height:17px;
+	background-color:#FFFFFF;
+	border:1 solid #d8d8d8;
+}
+.text_date {
+	color:#686868;
+	font-family:dotum;
+	font-size:11px;
+	line-height:17px;
+	letter-spacing:0px;
+	letter-spacing:0px;
+}
+/* POINT FONT */
+.orange {
+	color: #FF760B;
+	font-weight: bold;
+}
+.text_bold {
+	color: #9A9A9A;
+	font-weight: bold;
+	font-size: 11px;
+}
+.largefont {font-size: 12px}
+.largefont01 {
+	font-size: 14px
+}
+.largefont02 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #0750B7;
+	line-height: 20px;
+}
+
+
+.smallfont {font-size: 11px}
+.blue_bold {	font-size: 12px;
+	color: #2769b9;
+	font-weight: bold;
+}
+.gray_bold {
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+.blue {	color: #2769B9;
+	font-size: 12px;
+}
+.white {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+
+/* input.text */
+input.text01    {
+	border:1 solid #d8d8d8;
+	color:#464646;
+	font-family:dotum;
+	font-size:12px;
+	background-color:#FFFFFF
+}
+
+/* IFRAME */
+.if_border01	{border:1 solid #CFCFCF}
+
+
+/* login box class */
+input.login {
+	border-top:1px solid #B6B6B6;
+	border-left:1px solid #B6B6B6;
+	border-bottom:1px solid #B6B6B6;
+	border-right:1px solid #B6B6B6;
+	width:88px;
+	height:20px;
+	margin:0 0 0 0;
+	color:#FFFFFF;
+	font-size:11px;
+	padding-left:3px;
+}
+
+/* LINK */
+a:link, a:visited, a:active	{color:#808080; font-family:dotum;
+; font-size:12px; text-decoration:none; line-height:17px}
+a:hover	{
+	color:#333333;
+	font-family:dotum;
+	font-size:12px;
+	text-decoration:none;
+	line-height:17px
+}

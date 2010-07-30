@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>comment</comment>
+<entry key="contents">&lt;html&gt;&lt;title&gt;タイトル&lt;/title&gt;&lt;body&gt;ボディ&lt;/body&gt;&lt;/html&gt;</entry>
+<entry key="title">これはタイトルです。</entry>
+</properties>

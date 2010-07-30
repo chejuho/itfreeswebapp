@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>comment</comment>
+<entry key="contents">&lt;html&gt; 
+userid : USERID_X &lt;br&gt; 
+&lt;a href='http://SERVER_DOMAIN/Kankokujin'&gt;Go to Kankokujin.Com&lt;/a&gt;
+&lt;/html&gt;</entry>
+<entry key="subject">Finded Your ID of Kankokujin.com</entry>
+</properties>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project default="compile">
+    <description>
+        This is a simple example of 'build.xml'.
+    </description>
+
+	<property name="src.dir" value="WEB-INF\src" />
+	<property name="classes.dir" value="WEB-INF\classes" />
+	
+
+    <target name="execute" depends="compile" description="Executes a project">
+        <java classname="sample.Sample" classpath="build/classes">
+            <arg value="Hello"/>
+            <arg value="World"/>
+        </java>
+    </target>
+
+    <target name="compile" description="Compiles a complete project">
+        <javac srcdir="${src.dir}" destdir="${classes.dir}">
+		<classpath>
+			<fileset dir="WEB-INF\lib">
+				<include name="*.jar"/>
+			</fileset>
+			
+			
+		</classpath>
+	</javac>
+    </target>
+
+    <target name="dist" depends="compile" description="Makes a JAR distribution">
+        <jar destfile="dist/sample.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Built-By" value="purluno"/>
+                <attribute name="Main-Class" value="sample.Sample"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="clean" description="Cleans intermediate files">
+        <delete includeEmptyDirs="true">
+            <fileset dir="build"/>
+            <fileset dir="dist"/>
+        </delete>
+    </target>
+</project>

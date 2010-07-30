@@ -1,0 +1,43 @@
+‘å‹v•Û‚Q|‚P‚P|‚P
+‘å‹v•Û‚Q|‚P‚Q|‚P
+‘å‹v•Û‚Q|‚P‚R|‚P
+‘å‹v•Û‚Q|‚P‚S|‚P
+‘å‹v•Û‚Q|‚P‚T|‚P
+‘å‹v•Û‚Q|‚P‚U|‚P
+‘å‹v•Û‚Q|‚P‚V|‚P
+
+35.664694, 139.700016
+35.674694, 139.710016
+35.684694, 139.720016
+35.694694, 139.730016
+35.704694, 139.740016
+
+        map.addOverlay(geocoder.getLatLng("Vh‹æ‘å‹v•Û‚Q|‚P‚P|‚P"));
+        map.addOverlay(geocoder.getLatLng("Vh‹æ‘å‹v•Û‚Q|‚P‚Q|‚P"));
+        map.addOverlay(geocoder.getLatLng("Vh‹æ‘å‹v•Û‚Q|‚P‚R|‚P"));
+        map.addOverlay(geocoder.getLatLng("Vh‹æ‘å‹v•Û‚Q|‚P‚S|‚P"));
+        map.addOverlay(geocoder.getLatLng("Vh‹æ‘å‹v•Û‚Q|‚P‚T|‚P"));
+
+var map = new GMap2(document.getElementById("map"));
+map.setCenter(new GLatLng(35.658517, 139.745493), 15);
+
+var geocoder = new GClientGeocoder();
+
+function moveAddress(address){
+  geocoder.getLocations(address, showMap);
+}
+
+function showMap(locations){
+  if (locations.Status.code == G_GEO_SUCCESS){
+    for (var i = 0; i < locations.Placemark.length; i++){
+      var lat = locations.Placemark[i].Point.coordinates[1];
+      var lng = locations.Placemark[i].Point.coordinates[0];
+      var point = new GLatLng(lat, lng)
+      var marker = new GMarker(point);
+      map.addOverlay(marker);
+    }
+  }else{
+    alert("ZŠ‚©‚çˆÜ“xŒo“x‚É•ÏŠ·‚Å‚«‚Ü‚¹‚ñ");
+  }
+}
+
